@@ -45,7 +45,7 @@ jobs:
           report_path: logs
 
       - name: Upload Report
-        uses: actions/upload-pages-artifact@v4.3.1
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           name: Test report
           path: logs
